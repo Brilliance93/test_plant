@@ -1,0 +1,9 @@
+[2022-03-04 21:39:03] [INFO] [app.py]/[line: 11]/[hello_falsk] {'this name is ': 'shirley'} 
+[2022-03-06 11:11:55] [INFO] [app.py]/[line: 11]/[hello_falsk] this name is:{username} 
+[2022-03-06 11:13:08] [INFO] [app.py]/[line: 11]/[hello_falsk] this name is:shirley 
+[2022-03-06 11:19:06] [INFO] [app.py]/[line: 8]/[hello_falsk] this name is:shirley 
+[2022-03-06 11:23:28] [INFO] [app.py]/[line: 8]/[hello_falsk] this name is:shirley 
+[2022-03-06 11:24:10] [INFO] [app.py]/[line: 8]/[hello_falsk] this name is:shirley 
+[2022-03-06 12:04:50] [INFO] [app.py]/[line: 8]/[hello_falsk] this name is:shirley 
+[2022-03-06 12:04:59] [INFO] [app.py]/[line: 8]/[hello_falsk] this name is:shirley 
+[2022-03-06 12:11:37] [INFO] [app.py]/[line: 8]/[hello_falsk] this name is:shirley 
