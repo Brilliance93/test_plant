@@ -16,9 +16,8 @@
     <!-- 绑定原生html -->
     <div id="blind-html">
         <span v-html="rawHtml"></span>
+        <div>{{OK ? 'yes':'no'}}</div>
     </div>
-    <a>
-    
 </body>
 </html>
 <script>
@@ -35,6 +34,7 @@
         el:"#blind-html",
         data:{
             rawHtml:'<a href="https://www.baidu.com">这是百度链接</a>',
+            OK:"",
         }
     })
 </script>

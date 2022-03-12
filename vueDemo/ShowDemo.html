@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+</head>
+<body>
+    <div id="show_demo">
+        <h1 v-if="is_show">表达式为true</h1>
+        <h1 v-else>表达式为false</h1>
+        <div v-show="is_show">
+            <p>这是段落</p>
+            <p>这是段落2</p>
+        </div>
+    </div>
+</body>
+</html>
+<script>
+    var vue=new Vue({
+        el:"#show_demo",
+        data:{
+            is_show : false,
+        }
+    })
+</script>
