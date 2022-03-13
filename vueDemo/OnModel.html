@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+</head>
+<body>
+    <div id="on_demo">
+    <div>{{num}}</div>
+    <!-- 绑定函数名称 -->
+    <button v-on:click="add">点击加一</button>
+    <!-- 绑定函数调用 -->
+    <button @click="add2(2)">点击加二</button>
+    </div>
+</body>
+</html>
+<script>
+    var vu=new Vue({
+        el:"#on_demo",
+        data:{
+            num:1,
+        },
+        methods:{
+            add:function(){
+                this.num++;
+            },
+            add2:function(num1){
+                this.num=this.num + num1;
+                // 打印日志查看传入参数
+                console.log(num1)
+            }
+        }
+    })
+</script>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+</head>
+<body>
+    <div id="bind_demo">
+        <!-- 通过CSS指定style属性 -->
+        <div style="width:200px; height:200px; border:1px solid #0ca07b" v-bind:style="bgcolor">
+            <span style="color: rgb(152, 155, 155); font-size:larger;">二月花开缓缓归</span><br>
+            <a :href="link" style="color: rgb(152, 155, 155); font-size:smaller;">归来</a>
+        </div>
+    </div>
+</body>
+</html>
+<script>
+    var vue=new Vue({
+        el:"#bind_demo",
+        data:{
+            // 设置图形背景色
+            bgcolor:{
+                backgroundColor:"pink",
+            },
+            link:"https://www.dentsu.com/#/history"
+        }
+    })
+</script>
