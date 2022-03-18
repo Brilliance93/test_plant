@@ -1,0 +1,3 @@
+[2022-03-17 12:11:08] [INFO] [flask_restx_parser_demo.py]/[line: 18]/[get] request.args=====>ImmutableMultiDict([('param', 'user')]) 
+[2022-03-17 14:47:05] [INFO] [flask_restx_parser_demo.py]/[line: 18]/[get] request.args=====>ImmutableMultiDict([('param', 'name'), ('age', '12')]) 
+[2022-03-17 14:52:08] [INFO] [flask_restx_parser_demo.py]/[line: 19]/[get] request.args=====>ImmutableMultiDict([('param', '111'), ('age', '22'), ('choice', 'girls')]) 
